@@ -31,6 +31,3 @@ NodeJS, Express, Express-Session, Nodemon, hbs - Express.js view engine for hand
 Thank you to the person I forked this from: gtsopour@gmail.com. 
 
 ### Credits
-
-Image credits:
-[Penguin flipper](https://ejphoto.com/images_FK/FK_KingPenguin40.jpg)
