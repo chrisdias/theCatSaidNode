@@ -1,33 +1,20 @@
-# NodeJS Shopping Cart - NodeJS, Express, Express-Session, Express handlebars (hbs)
 
-### Run locally on your machine
-You need to have installed Node and NPM.
+# Push The Button!
 
-![NodeJS Shopping Cart](/data/nodejs-cart-1.png?raw=true "NodeJS Shopping Cart")
+![alt](./assets/button.png)
+
+# Build and Run
 
 Clone this repository
 ``` shell
-git clone https://github.com/gtsopour/nodejs-shopping-cart.git
-```
-
-Install dependencies
-``` shell
+git clone https://github.com/chrisdias/thecatsaidnode.git
+cd thecatsaidnode
 npm install
-```
-
-Start NodeJS server at http://localhost:3000
-``` shell
 npm start
 ```
 
-For Nodemon usage
-``` shell
-nodemon ./bin/www
-```
+Then, browse to http://localhost:3000
 
-### Technologies
-NodeJS, Express, Express-Session, Nodemon, hbs - Express.js view engine for handlebars.js
+# Credits
+gtsopour@gmail.com
 
-Thank you to the person I forked this from: gtsopour@gmail.com. 
-
-### Credits
