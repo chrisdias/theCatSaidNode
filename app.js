@@ -11,13 +11,6 @@ var index = require('./routes/index');
 
 var app = express();
 
-// type checking saves lives
-var msg = "in app.js";
-console.log(msg);
-// some time later...
-msg = 10;
-console.log(msg);
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 hbs.registerPartials(__dirname + '/views/partials');
