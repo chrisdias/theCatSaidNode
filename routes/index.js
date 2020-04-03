@@ -6,6 +6,7 @@ require('dotenv').config()
 
 router.get('/', function (req, res, next) {
 
+   // TODO@chrisdias #11 remove this for demo
    myPlatform = process.platform
 
    let inImgPath = "/images/catpaw.png";
