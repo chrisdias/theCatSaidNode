@@ -12,10 +12,10 @@ function callbackToggle() {
 function togglePaw() {
     if (!pawToggled) {
         // Runs when we toggle the button
-        document.getElementsByClassName("catpaw-container")[0].classList.add("catpaw-extended");
+        document.getElementsByClassName("paw-container")[0].classList.add("paw-extended");
         myTimeout = setTimeout(callbackToggle(), 600);
     } else {
-        document.getElementsByClassName("catpaw-container")[0].classList.remove("catpaw-extended");
+        document.getElementsByClassName("paw-container")[0].classList.remove("paw-extended");
         clearTimeout(myTimeout);
     }
 

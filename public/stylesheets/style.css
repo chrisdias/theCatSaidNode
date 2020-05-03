@@ -190,7 +190,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.catpaw-container {
+.paw-container {
   height: 80rem;
   position: absolute;
   top: 50%;
@@ -198,12 +198,12 @@ body {
   transform: translate(-50%, -200%);
   transition: transform 0.6s;
 }
-.catpaw-image {
+.paw-image {
   margin-left: 340px;
   height: 100%;
   transform: rotate(180deg);
 }
-.catpaw-extended {
+.paw-extended {
   transform: translate(-50%, -90%);
 }
 .preload * {

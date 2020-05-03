@@ -4,8 +4,8 @@
     onclick="togglePaw()" id="main-button">
     <div class="handle"></div>
   </button>
-  <div class="catpaw-container">
-    <img class="catpaw-image" alt="myImage" src="{{imgPath}}" />
+  <div class="paw-container">
+    <img class="paw-image" alt="myImage" src="{{imgPath}}" />
   </div>
   <div>
     <h1 style="text-align:center;">Press the Button</h1>
@@ -25,10 +25,10 @@
     function togglePaw() {
       if (!pawToggled) {
         // Runs when we toggle the button
-        document.getElementsByClassName("catpaw-container")[0].classList.add("catpaw-extended");
+        document.getElementsByClassName("paw-container")[0].classList.add("paw-extended");
         myTimeout = setTimeout(callbackToggle(), 600);
       } else {
-        document.getElementsByClassName("catpaw-container")[0].classList.remove("catpaw-extended");
+        document.getElementsByClassName("paw-container")[0].classList.remove("paw-extended");
         clearTimeout(myTimeout);
       }
 
