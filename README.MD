@@ -8,8 +8,7 @@
 ``` shell
 git clone https://github.com/chrisdias/thecatsaidnode.git
 cd thecatsaidnode
-npm install
-npm start
+npm install && npm start
 ```
 
 Browse to http://localhost:3000
