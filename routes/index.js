@@ -8,10 +8,10 @@ router.get('/', function (req, res, next) {
 
    myPlatform = process.platform
 
-   let inImgPath = "/images/catpaw.png";
+   let inImgPath = "/images/dogpaw.png";
 
    if (myPlatform != "linux") {
-      inImgPath = "/images/catpaw.png"
+      inImgPath = "/images/dogpaw.png"
    }
 
    res.render('index',
