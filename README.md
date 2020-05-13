@@ -3,6 +3,12 @@
 
 ![alt](./assets/button.png)
 
+# Requirements
+
+This site runs on Node version 10 or later.
+
+[Install Node](https://nodejs.org/en/download/)
+
 # Build and Run
 
 ``` shell
