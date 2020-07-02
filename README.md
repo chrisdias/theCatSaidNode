@@ -22,4 +22,3 @@ Browse to http://localhost:3000
 # License
 [MIT](./LICENSE)
 
-# hello
