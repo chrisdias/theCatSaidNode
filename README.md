@@ -23,4 +23,4 @@ Browse to http://localhost:3000
 [MIT](./LICENSE)
 
 
-# hi amanda and julia
+# hi pj
