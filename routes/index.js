@@ -6,11 +6,11 @@ require('dotenv').config()
 
 router.get('/', function (req, res, next) {
 
-   let inImgPath = "/images/catpaw.png";
+   let inImgPath = "/images/dogpaw.png";
 
    res.render('index',
       {
-         title: "The cat Said No!",
+         title: "The Dog Said No!",
          imgPath: inImgPath
       }
    );
