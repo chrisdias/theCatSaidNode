@@ -8,10 +8,6 @@ router.get('/', function (req, res, next) {
 
    let inImgPath = "/images/dogpaw.png";
 
-   if (myPlatform != "linux") {
-      inImgPath = "/images/dogpaw.png"
-   }
-
    res.render('index',
       {
          title: "The Dog Said No!",
