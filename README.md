@@ -24,4 +24,4 @@ Browse to http://localhost:3000
 
 ## this is really cool and i forgot to do the theme demo
 
-hi ned
+hi joe
