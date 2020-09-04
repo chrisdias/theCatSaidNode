@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-shopping-cart",
+  "name": "the cat said no",
   "version": "1.0.0",
   "scripts": {
     "start": "node ./bin/www",
