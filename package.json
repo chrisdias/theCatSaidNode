@@ -1,5 +1,5 @@
 {
-  "name": "the cat said no",
+  "name": "thecatsaidno",
   "version": "1.0.0",
   "scripts": {
     "start": "node ./bin/www",
