@@ -23,6 +23,5 @@ Browse to http://localhost:3000
 [MIT](./LICENSE)
 
 
-## Hi old friend Jeff Beehler
 
 
