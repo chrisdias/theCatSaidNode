@@ -2,8 +2,7 @@
   "name": "nodejs-shopping-cart",
   "version": "1.0.0",
   "scripts": {
-    "start": "node ./bin/www",
-    "debug": "node --inspect ./bin/www"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
