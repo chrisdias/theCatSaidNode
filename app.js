@@ -11,7 +11,7 @@ var index = require('./routes/index');
 
 var app = express();
 
-// hello cruel world!
+// hello there!!
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
