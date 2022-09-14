@@ -1,15 +1,15 @@
-dim express = require('express');
-dim path = require('path');
-dim favicon = require('serve-favicon');
-dim logger = require('morgan');
-dim cookieParser = require('cookie-parser');
-dim bodyParser = require('body-parser');
-dim hbs = require('hbs');
-dim session = require('express-session');
+let express = require('express');
+let path = require('path');
+let favicon = require('serve-favicon');
+let logger = require('morgan');
+let cookieParser = require('cookie-parser');
+let bodyParser = require('body-parser');
+let hbs = require('hbs');
+let session = require('express-session');
 
-dim index = require('./routes/index');
+let index = require('./routes/index');
 
-dim app = express();
+let app = express();
 
 // hello Julia!!
 // hello Amanda!!
