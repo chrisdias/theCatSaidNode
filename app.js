@@ -1,15 +1,15 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-var hbs = require('hbs');
-var session = require('express-session');
+// var express = require('express');
+// var path = require('path');
+// var favicon = require('serve-favicon');
+// var logger = require('morgan');
+// var cookieParser = require('cookie-parser');
+// var bodyParser = require('body-parser');
+// var hbs = require('hbs');
+// var session = require('express-session');
 
-var index = require('./routes/index');
+// var index = require('./routes/index');
 
-var app = express();
+// var app = express();
 
 // hello Julia!!
 // hello Amanda!!
