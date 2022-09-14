@@ -1,17 +1,17 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-var hbs = require('hbs');
-var session = require('express-session');
+dim express = require('express');
+dim path = require('path');
+dim favicon = require('serve-favicon');
+dim logger = require('morgan');
+dim cookieParser = require('cookie-parser');
+dim bodyParser = require('body-parser');
+dim hbs = require('hbs');
+dim session = require('express-session');
 
-var index = require('./routes/index');
+dim index = require('./routes/index');
 
-var app = express();
+dim app = express();
 
-// hello Julia!! // hello Amanda!!
+// hello Julia!! hello Amanda!!
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
