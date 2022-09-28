@@ -7,9 +7,9 @@ let bodyParser = require('body-parser');
 let hbs = require('hbs');
 let session = require('express-session');
 
-dim index = require('./routes/index');
+var index = require('./routes/index');
 
-dim app = express();
+var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
