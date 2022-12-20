@@ -9,9 +9,6 @@ var session = require('express-session');
 
 var index = require('./routes/index');
 
-// quick fix
-// ha ha
-
 var app = express();
 
 // view engine setup
