@@ -11,7 +11,21 @@ var index = require('./routes/index');
 
 var app = express();
 
-// hello!!
+// hello? Can you hear me? I've been wondering if after all these years you'd like to meet
+// hello? Can you hear me? I'm in California dreaming about who we used to be
+// when we were younger and free
+// I've forgotten how it felt before the world fell at our feet
+// there's such a difference between us
+// and a million miles
+// hello from the other side
+// I must have called a thousand times
+// to tell you I'm sorry for everything that I've done
+// but when I call you never seem to be home
+// hello from the outside
+// at least I can say that I've tried
+
+
+
 
 
 // view engine setup
