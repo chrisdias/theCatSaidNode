@@ -18,9 +18,4 @@ router.get('/', function (req, res, next) {
 });
 
 
-router.get('/cats', function (req, res, next) {
-   let catNames = ['Whiskers', 'Mittens', 'Oliver', 'Luna', 'Simba'];
-   res.json(catNames);
-});
-
 module.exports = router;
