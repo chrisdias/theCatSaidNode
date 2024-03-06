@@ -17,4 +17,10 @@ router.get('/', function (req, res, next) {
    );
 });
 
+
+router.get('/dogs', function (req, res, next) {
+   let dogNames = ['Buddy', 'Max', 'Charlie', 'Lucy', 'Bailey'];
+   res.json(dogNames);
+});
+
 module.exports = router;
