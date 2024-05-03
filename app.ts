@@ -1,15 +1,15 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-var hbs = require('hbs');
-var session = require('express-session');
+import express from 'express';
+import path from 'path';
+import favicon from 'serve-favicon';
+import logger from 'morgan';
+import cookieParser from 'cookie-parser';
+import bodyParser from 'body-parser';
+import hbs from 'hbs';
+import session from 'express-session';
 
-var index = require('./routes/index');
+import index from './routes/index';
 
-var app = express();
+const app: express.Application = express();
 
 // hello!!
 
@@ -33,7 +33,7 @@ app.use(session({
 app.use(express.static(path.join(__dirname, 'public')));
 
 // res.locals is an object passed to hbs engine
-app.use(function (req, res, next) {
+app.use(function (req: express.Request, res: express.Response, next: express.NextFunction) {
    res.locals.session = req.session;
    next();
 });
@@ -41,14 +41,14 @@ app.use(function (req, res, next) {
 app.use('/', index);
 
 // 404 and forward to error handler
-app.use(function (req, res, next) {
-   var err = new Error('Not Found');
-   err['status'] = 404;
+app.use(function (req: express.Request, res: express.Response, next: express.NextFunction) {
+   var err = new Error('Not Found') as Error & { status?: number };
+   err.status = 404;
    next(err);
 });
 
 // error handler
-app.use(function (err, req, res, next) {
+app.use(function (err: Error, req: express.Request, res: express.Response, next: express.NextFunction) {
    // set locals, only providing error in development
    res.locals.message = err.message;
    res.locals.error = req.app.get('env') === 'development' ? err : {};
@@ -57,4 +57,4 @@ app.use(function (err, req, res, next) {
    res.render('error');
 });
 
-module.exports = app;
+export default app;
