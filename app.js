@@ -11,7 +11,10 @@ var index = require('./routes/index');
 
 var app = express();
 
-// hello!!
+// hello? Can you hear me? I've been california
+// dreaming about who we used to be
+// when we were younger and free
+// I've forgotten how it felt before the world fell at our feet
 
 
 // view engine setup
